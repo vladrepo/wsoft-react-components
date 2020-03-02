@@ -7,7 +7,7 @@
 
 .item {
     cursor: pointer;
-    margin: auto;
+    /* margin: auto; */
 }
 
 .selected {
@@ -22,6 +22,7 @@
 
     .item {
         padding: .5rem;
+        margin-top: .5rem;
         font-size: 1.75rem;
     }
 
@@ -38,6 +39,7 @@
 
     .item {
         padding: 1rem;
+        margin-top: 1rem;
         font-size: 3rem;
     }
 
