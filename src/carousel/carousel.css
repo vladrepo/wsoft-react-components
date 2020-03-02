@@ -1,0 +1,47 @@
+.carousel {
+    display: flex;
+    font-family: 'BmwWebli';
+    position: absolute;
+    transition: all ease-out 1s;
+}
+
+.item {
+    cursor: pointer;
+    margin: auto;
+}
+
+.selected {
+    transition: all ease .5s;
+}
+
+@media (max-width: 768px) {
+    .header {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .item {
+        padding: .5rem;
+        font-size: 1.75rem;
+    }
+
+    .selected {
+        font-size: 3.5rem;
+    }
+}
+
+@media (min-width: 769px) {
+    .header {
+        margin-top: 1rem;
+        font-size: 1.75rem;
+    }
+
+    .item {
+        padding: 1rem;
+        font-size: 3rem;
+    }
+
+    .selected {
+        font-size: 6rem;
+    }
+}
